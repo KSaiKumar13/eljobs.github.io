@@ -3,6 +3,7 @@
 	&, .container > .row {
 		height: 100vh;
 		min-height: 900px;
+		padding: 0px 0px 0px 0px;
 	}
 	
 	&.single-cover {
@@ -558,7 +559,7 @@
 
 .teacher {
 	border: 1px solid $gray-200;
-	padding: 30px;
+	padding: 10px;
 	margin-bottom: 5rem;
 	img {
 		position: relative;
@@ -573,7 +574,7 @@
 }
 
 .course-instructor {
-	padding: 30px;
+	padding: 10px;
 	p {
 		font-size: 1rem;
 	}

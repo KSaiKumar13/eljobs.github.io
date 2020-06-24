@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5,
     .site-section {
       padding: 5em 0; } }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 0; }
 
 .site-section-heading {
   padding-bottom: 20px;
@@ -617,7 +617,7 @@ h1, h2, h3, h4, h5,
   position: relative; }
   .intro-section, .intro-section .container > .row {
     height: 100vh;
-    min-height: 900px; }
+    min-height: 800px; }
   .intro-section.single-cover, .intro-section.single-cover .container > .row {
     height: 50vh;
     min-height: 400px; }
@@ -653,7 +653,7 @@ h1, h2, h3, h4, h5,
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #343a40;
+    background: #343a4069;
     opacity: .9;
     border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
@@ -673,15 +673,15 @@ h1, h2, h3, h4, h5,
 
 .form-box {
   padding: 40px;
-  background: #fff;
+  background: #fdaca0;
   border-radius: 7px; }
 
 .site-section {
-  padding: 4em 0;
+  padding:  50px 0px 0px 0px;
   position: relative; }
   @media (max-width: 991.98px) {
     .site-section {
-      padding: 4em 0; } }
+      padding: 0; } }
 
 .cta a span {
   border-color: #003c48;
@@ -868,8 +868,8 @@ h1, h2, h3, h4, h5,
       background-color: #7971ea; }
 
 .footer-section {
-  padding: 7em 0;
-  background-color: #003c58; }
+  padding: 2.5em 0;
+  background-color: #053655; }
   .footer-section p {
     font-size: 1rem; }
   .footer-section h3 {
@@ -994,7 +994,7 @@ h1, h2, h3, h4, h5,
 
 .courses-title {
   padding-bottom: 13rem;
-  background: #7971ea; }
+  background: #053655; }
   .courses-title .section-title {
     color: #fff; }
 
@@ -1066,7 +1066,8 @@ h1, h2, h3, h4, h5,
 
 .teacher {
   border: 1px solid #e9ecef;
-  padding: 30px;
+  padding: 10px;
+  height: 255px;
   margin-bottom: 5rem; }
   .teacher img {
     position: relative;
