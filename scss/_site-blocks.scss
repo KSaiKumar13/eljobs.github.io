@@ -573,6 +573,22 @@
 	}
 }
 
+.teacher1 {
+	border: 1px solid $gray-200;
+	padding: 10px;
+	margin-bottom: 5rem;
+	img1 {
+		position: relative;
+		margin-top: -100px;
+	}
+	h3 {
+		font-size: 1.2rem;
+	}
+	.position {
+		color: $gray-500;
+	}
+}
+
 .course-instructor {
 	padding: 10px;
 	p {

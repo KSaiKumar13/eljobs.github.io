@@ -1483,6 +1483,25 @@ h1, h2, h3, h4, h5,
   color: #adb5bd;
 }
 
+.teacher1 {
+  border: 1px solid #e9ecef;
+  padding: 10px;
+  margin-bottom: 5rem;
+}
+
+.teacher1 img1 {
+  position: relative;
+  margin-top: -100px;
+}
+
+.teacher1 h3 {
+  font-size: 1.2rem;
+}
+
+.teacher1 .position {
+  color: #adb5bd;
+}
+
 .course-instructor {
   padding: 10px;
 }
