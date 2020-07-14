@@ -7870,6 +7870,10 @@ button.bg-dark:focus {
           box-shadow: none !important;
 }
 
+.w-18 {
+  width: 18% !important;
+}
+
 .w-25 {
   width: 25% !important;
 }
