@@ -1067,7 +1067,7 @@ h1, h2, h3, h4, h5,
 .teacher {
   border: 1px solid #e9ecef;
   padding: 0px;
-  height: 420px;
+  height: 100%;
   margin-bottom: 5rem; }
   .teacher img {
     position: relative;
