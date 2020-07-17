@@ -1998,7 +1998,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #7971ea;
+  background-color: #083755;
   border-color: #7971ea; }
   .btn-primary:hover {
     color: #fff;
@@ -4988,7 +4988,7 @@ button.close {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #7971ea !important; }
+  background-color: #f48271 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
