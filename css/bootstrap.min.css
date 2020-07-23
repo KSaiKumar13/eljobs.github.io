@@ -1999,11 +1999,11 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #fff;
   background-color: #083755;
-  border-color: #7971ea; }
+  border-color: #083755; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #5a50e5;
-    border-color: #4f45e3; }
+    background-color: #f48271;
+    border-color: #f48271; }
   .btn-primary:focus, .btn-primary.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(121, 113, 234, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(121, 113, 234, 0.5); }
@@ -3267,7 +3267,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #7971ea; }
+  background-color: #083755; }
 
 .nav-fill .nav-item {
   -webkit-box-flex: 1;

@@ -605,9 +605,9 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         text-decoration: none !important; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover {
-          color: #7971ea; }
+          color: #f48271; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active:after {
-          background: #7971ea; }
+          background: #083755; }
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
@@ -684,7 +684,7 @@ h1, h2, h3, h4, h5,
       padding: 0; } }
 
 .cta a span {
-  border-color: #003c48;
+  border-color: #083755;
   padding: 14px 20px;
   color: #fff;
   background: #083755;
@@ -699,7 +699,7 @@ h1, h2, h3, h4, h5,
     color: #fff; }
 
 .cta a:hover span {
-  background: #4f45e3;
+  background: #f48271;
   color: #fff; }
 
 .cta a.active {
