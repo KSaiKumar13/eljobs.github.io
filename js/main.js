@@ -80,7 +80,7 @@ jQuery(document).ready(function($) {
 		// click outisde offcanvas
 		$(document).mouseup(function(e) {
 		var container = $(".site-mobile-menu");
-		debugger
+		
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 	      if ( $('body').hasClass('offcanvas-menu') ) {
 					$('body').removeClass('offcanvas-menu');
