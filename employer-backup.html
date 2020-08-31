@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/pricing.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/components/popovers/">
+
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
     <link rel="stylesheet" href="css/aos.css">
@@ -49,7 +49,7 @@
       
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto w-20"><img src="images/logo1.svg" alt="Image" class="img-fluid"></div>
+          <div class="site-logo mr-auto w-25"><img src="images/logo1.svg" alt="Image" class="img-fluid"></div>
 
           <div class="mx-auto text-center">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -67,15 +67,7 @@
               <ul class="site-menu main-menu site-menu-dark js-clone-nav ml-auto d-none d-lg-block m-0 p-0">
                 <li class="cta"><a href="index.html" onclick="employeersmove()" class="nav-link"><span>Job Seeker</span></a></li>
               </ul>
-            </nav>
-          </div>
-          <div class="p2">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-            <ul class="site-menu main-menu site-menu-dark js-clone-nav ml-auto d-none d-lg-block m-0 p-0">
-              <li class="cta"><a href="login" onclick="employeersmove()" class="nav-link"><span>Employer Login</span></a></li>
-            </ul>
-            </nav>
-          </div>  
+          </nav>
           </div>
             <a href="index.html#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
           </div>
@@ -90,9 +82,9 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12">
-              <div class="row align-items-center mt-5">
-                <div class="col-12 mt-5">
-                  <h1 style="text-align: center; color: black; line-height: 140%;" data-aos="fade-up" data-aos-delay="100"><span class="bg-primary">A JOB PORTAL DESIGNED TO SIMPLIFY <br>ENTRY LEVEL JOB HIRING</span></h1>
+              <div class="row align-items-center">
+                <div class="col-12">
+                  <h1  style="text-align: center; color: black; line-height: 140%;" data-aos="fade-up" data-aos-delay="100"><span class="bg-primary">A JOB PORTAL DESIGNED TO SIMPLIFY <br>ENTRY LEVEL JOB HIRING</span></h1>
                   
                   <!-- <h4 style="color:white; text-align:center" data-aos="fade-up" data-aos-delay="100" class="mb-6">We help <strong>EMPLOYERS</strong> to do seamless curated search from the pool of verified CVs (with KYC details) for planning their hiring process with speed.</h4> -->
 
@@ -113,26 +105,18 @@
             <div class="ml-auto"  data-aos="fade-up" data-aos-delay="500">
                   <form action="" method="post" class="form-box">
                     <h3 class="h4 text-black mb-4">Create Account </h3>
-                    <p>Registered  as >> </p>
-                    <div class="from-group">
-                      <div class="form-check form-check-inline">
-                       <label class="radio">
-                        <input name="radio" type="radio" value="Individual"/>
-                        Individual
-                       </label>
-                      </div>
-                      <div class="form-check form-check-inline">
-                       <label class="radio">
-                        <input name="radio" type="radio" value="Organization"/>
-                        Organization
-                       </label>
-                      </div>
-                    </div>  
+                    <p>Already Registered >> log in here</p>
                     <div class="form-group">
                       <input type="text" class="form-control" placeholder="Name">
                     </div>
                     <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Designation">
+                    </div>
+                    <div class="form-group">
                       <input type="text" class="form-control" placeholder="Organization Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Sector/Industry">
                     </div>
                     <div class="form-group">
                       <input type="text" class="form-control" placeholder="Contact Number">
@@ -141,10 +125,7 @@
                       <input type="text" class="form-control" placeholder="Official Email id">
                     </div>
                     <div class="form-group">
-                      <label>
-                      <input type="checkbox" class="checkbox" placeholder="Term & Conditions">
-                      Agee to the <a tabindex="0" data-toggle="popover" data-trigger="focus" title="Terms & Conditions" data-content="I agree to avail ELJobs  services in  individual/or organization capacity; I agree to maintain the confidentiality of CV &amp; other documents  and use only for my hiring purpose; I agree to make the payment as per the selected payment plan; I agree to resolve dispute, if any, based on mutual discussion or arbitration. In case of arbitration location will.">terms & conditions</a>
-                      </label>
+                      <input type="password" class="form-control" placeholder="Location/Pincode">
                     </div>
                     <div class="form-group">
                       <input type="submit" class="btn btn-primary btn-pill" value="Sign up">
@@ -161,25 +142,47 @@
             <div class="container">
               <div class="row mt-5">
                       <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="">
-                          <img src="images/pyramid.png" alt="Image" class="img-fluid  mx-auto">
+                        <div class="teacher1 text-center">
+                          <img src="images/QualityCV.png" alt="Image" class="img-fluid w-35 rounded-circle mx-auto">
+                          <div class="py-1">
+                            <h3 class="text-black">Quality CV</h3>
+                            <p>Employers can make easy search based on job location, qualification, sector, salary, gender.</p>
+                          </div>
                         </div>
                       </div>
                       <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="">
-                          <!-- <img src="images/time.png" alt="Image" class="img-fluid w-35 rounded-circle mx-auto"> -->
+                        <div class="teacher1 text-center">
+                          <img src="images/time.png" alt="Image" class="img-fluid w-35 rounded-circle mx-auto">
                           <div class="py-1">
-                            <!-- <h3 class="text-black">Save Your Time</h3> -->
-                            <p>Job Seekers are onboarded after telephonic counselling- with proper documents and CV.</p>
-                            <p>You get substantially improved conversion of candidates in half the time and effort</p>
+                            <h3 class="text-black">Save Your Time</h3>
+                            <p>All details are with documentary evidences, which saves your time & effort. We host only Quality CVs.</p>
                           </div>
                         </div>
                       </div>
                   </div>
-                      
+                  <div class="row">
+                    <div class="col-md-6 col-lg-6  mb-4" data-aos="fade-up" data-aos-delay="100">
+                      <div class="teacher1 text-center">
+                        <img src="images/verfied.png" alt="Image" class="img-fluid w-35 rounded-circle mx-auto">
+                        <div class="py-1">
+                          <h3 class="text-black">Verified CV</h3>
+                          <p>First level of counselling with job seekers are already done to know their interest in entry level jobs. </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                      <div class="teacher1 text-center">
+                        <img src="images/validated_contact.png" alt="Image" class="img-fluid w-35 rounded-circle mx-auto">
+                        <div class="py-1">
+                          <h3 class="text-black">Validated Contacts</h3>
+                          <p>All E-mail IDs and Phone Numbers are OTP validated, this ensures that your communication reaches to job seekers</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>    
           </div>
         </section>
-        <!-- <h2 class="text-black"><strong>REGISTER NOW</strong></h2><h3 style="text-black">SIMPLIFY YOUR ENTRY LEVEL HIRING NEEDS</h3>        -->
+        <h2 class="text-black"><strong>REGISTER NOW</strong></h2><h3 style="text-black">SIMPLIFY YOUR ENTRY LEVEL HIRING NEEDS</h3>       
       </div>
            
     </div>
@@ -293,7 +296,7 @@
                       <ul>
                           <li>20 CV views (per search)</li>
                           <li>SMS to all viewed CV's</li>
-                          <li>20 downloads of CV's with documents</li>
+                          <li>20 download of CV's with documents</li>
                           <li>No access to skill assessment</li>
                           <li>Suitable for hiring <br>1-2 persons</li>
                       </ul>
@@ -317,7 +320,7 @@
                       <ul>
                           <li>40 CV views (per search)</li>
                           <li>SMS to all viewed CV's</li>
-                          <li>50 downloads of CV's with documents</li>
+                          <li>50 download of CV's with documents</li>
                           <li>No access to skill assessment</li>
                           <li>Suitable for hiring <br>5-6 persons</li>
                       </ul>
@@ -341,7 +344,7 @@
                       <ul>
                         <li>40 CV views (per search)</li>
                         <li>SMS to all viewed CV's</li>
-                        <li>150 downloads of CV's with documents</li>
+                        <li>150 download of CV's with documents</li>
                         <li>No access to skill assessment</li>
                         <li>Suitable for hiring 15-20 persons in 3 months</li>
                       </ul>
@@ -365,7 +368,7 @@
                       <ul>
                         <li>100 CV views (per search)</li>
                         <li>SMS to all viewed CV's</li>
-                        <li>800 downloads of CV's with documents</li>
+                        <li>800 download of CV's with Docuents</li>
                         <li>Access to skill assessment</li>
                         <li>Suitable for hiring 80-100 persons in 12 months</li>
                       </ul>
@@ -377,8 +380,7 @@
               </div>
           </div>
           </div>
-          <p class="text-black text-center">We also run dedicated campaigns- to fulfill your immediate bulk hiring needs</p>
-        </div>
+      </div>
   </div>
   </div>	
 
@@ -507,11 +509,7 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
-  <script>
-    $(document).ready(function(){
-        $('[data-toggle="popover"]').popover();   
-    });
-  </script>
+
   
   <script src="js/main.js"></script>
   <script>

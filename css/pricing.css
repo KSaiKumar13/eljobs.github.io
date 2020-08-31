@@ -48,6 +48,13 @@
     position: relative;
     bottom:30px;
 }
+.pricingTable-header > .price-value > .gst{
+    font-size: 8px;
+    margin-right: 4px;
+    position: relative;
+    bottom:0px;
+}
+
 .pricingTable > .pricingContent{
     text-transform: uppercase;
     color:#fff
