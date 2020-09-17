@@ -652,7 +652,7 @@ h1, h2, h3, h4, h5,
 .slide-1 {
   background-size: cover;
   background-position: center;
-background-image: url('../images/hero_1.jpg'); }
+  background-image: url('../images/hero_1.jpg'); }
 	
   .slide-1:before {
     content: "";
@@ -660,7 +660,7 @@ background-image: url('../images/hero_1.jpg'); }
     height: 100%;
     width: 100%;
     background: #343a4069;
-    opacity: .9;
+    opacity: 100%;
     border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
       .slide-1:before {
