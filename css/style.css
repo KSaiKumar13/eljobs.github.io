@@ -651,7 +651,9 @@ h1, h2, h3, h4, h5,
 
 .slide-1 {
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+background-image: url('../images/hero_1.jpg'); }
+	
   .slide-1:before {
     content: "";
     position: absolute;
@@ -662,7 +664,10 @@ h1, h2, h3, h4, h5,
     border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
       .slide-1:before {
-        width: 100%; } }
+		background-image: url('../images/hero_s.jpg');
+		background-position: center;
+		background-size: cover;
+        max-height: 100%;} }
   .slide-1 .slide-text {
     opacity: 0;
     visibility: hidden;
